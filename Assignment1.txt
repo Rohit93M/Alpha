@@ -1,0 +1,17 @@
+Q1. Fetch all rows
+Ans: //table/tbody/tr
+
+Q2. Fetch last row
+Ans: //table/tbody/tr[last()]
+
+Q3. Fetch last but one row
+Ans: //table/tbody/tr[last()-1]
+
+Q4. Fetch last row last column
+Ans: //table/tbody/tr[last()]/td[last()]
+
+Q.5 Fetch all names except Clark
+Ans: //table/tbody/tr/td[1][text()!='Clark']
+
+Q.6 Fetch Michael's strike rate
+//table/tbody/tr/td[text()='Michael']/following-sibling::td[5]
